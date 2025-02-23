@@ -123,21 +123,21 @@ Er zijn verschillende manieren om grafen voor te stellen in Java:
     De index in de lijst geeft de plaats van de knoop in de matrix weer. Aan de hand van de indices van
     2 knopen kan de afstand tussen de knopen dan opgezocht worden in de matrix.
 
-  - Zijdenlijst (Edge List)
-    Dit is een meer object-georierenteerde implementatie 
-    ```
-     public class Edge {
-          private Character source;
-          private Character destination;
-          private int weight;
-          // Additional edge properties can go here
-      }
+- Zijdenlijst (Edge List)
+  Dit is een meer object-georierenteerde implementatie 
+  ```
+   public class Edge {
+        private Character source;
+        private Character destination;
+        private int weight;
+        // Additional edge properties can go here
+    }
     
-      public class Graph {
-          private Set<Character> vertices;
-          private List<Edge> edges;
-      }
-      ```
+    public class Graph {
+        private Set<Character> vertices;
+        private List<Edge> edges;
+    }
+    ```
 
 Iedere implementatie komt met voor- en nadelen. Wij kiezen voor de adjacency map.
 
