@@ -1,0 +1,8 @@
+Paris,London,344
+London,Berlin,932
+Berlin,Madrid,1867
+Madrid,Rome,1364
+Rome,Paris,1106
+Paris,Berlin,878
+London,Madrid,1264
+Berlin,Rome,1181
