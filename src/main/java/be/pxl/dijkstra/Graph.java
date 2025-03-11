@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class Graph<T> {
-    private Map<T, Map<T, Integer>> adjacencyMap = new HashMap<>();
+    private final Map<T, Map<T, Integer>> adjacencyMap = new HashMap<>();
 
     public void addVertex(T vertex) {
         adjacencyMap.putIfAbsent(vertex, new HashMap<>());
