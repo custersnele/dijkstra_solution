@@ -1,4 +1,7 @@
-package be.pxl.dijkstra.solution;
+package be.pxl.dijkstra.cities;
+
+import be.pxl.dijkstra.Graph;
+import be.pxl.dijkstra.PathResult;
 
 import java.io.IOException;
 import java.nio.file.Files;
