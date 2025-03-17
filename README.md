@@ -107,7 +107,7 @@ Er zijn verschillende manieren om grafen voor te stellen in Java:
 - Adjacency map 
     ```
     public class Graph {
-      private Map<Charater, Map<Charater, Integer>> adjacencyMap;
+      private Map<Character, Map<Character, Integer>> adjacencyMap;
     }
     ```
     Waarbij we alle knopen als key bijhouden en de aangrenzende knopen met hun gewicht als value. 
